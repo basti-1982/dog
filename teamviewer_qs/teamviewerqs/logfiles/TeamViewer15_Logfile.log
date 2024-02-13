@@ -1,0 +1,176 @@
+2023/12/05 11:00:33.875  4062  4062 NW2   Logger started.
+2023/12/05 11:00:33.875  4062  4062 NW2   Found 0 stack dump files ...
+2023/12/05 11:00:33.875  4062  4062 NW2   Found 0 core dump files ...
+2023/12/05 11:00:33.876  4062  4062 NW2   systemd: logind service available
+2023/12/05 11:00:33.878  4062  4062 NW2   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='2', canGraphical=1, canTTY=1, canMultiSession=0]
+2023/12/05 11:00:33.878  4062  4062 NW2   LogindSessionInfo: New session LogindSessionInfo [id=2 user=dci-student state=user active=1 reliable=1 infoId=450215437] [path=/org/freedesktop/login1/session/_32 TTY=tty2 seat=seat0 display= vtnr=2 owner=[SysUser: dci-student [uid=1001, gid=1001 home=/home/dci-student gecos=dci-student,,, shell=/bin/bash]] idle=0(0) active=1 type=wayland class=user state=active timestamp=1701770279329811 service=gdm-password defaultCG= leader=1611 audit=2 remote=0 rHost= rUser= killProc=0]
+2023/12/05 11:00:33.879  4062  4062 NW2   SysSessionInfoManager: observing sessions from logind is marked as reliable
+2023/12/05 11:00:33.879  4062  4062 NW2   SysSessionInfoManager: Session Information provided by VT [priority: 2]
+2023/12/05 11:00:33.879  4062  4062 NW2!  FrameBuffer: Cannot access /dev/fb0, frame buffer support unavailable
+2023/12/05 11:00:33.879  4062  4062 NW2   SysSessionInfoManager::SessionAdded: adding session WaylandSession: [SysSession 450215437 [type=W vt=2 tty= pseudotty=0 info=1 id=2 user=dci-student state=user active=1 reliable=1]]
+2023/12/05 11:00:33.880  4062  4062 NW2   SysSessionInfoManager::GetOwnProcessSession: own session cache set to '450215437'
+2023/12/05 11:00:33.880  4062  4062 NW2   Starting as network
+2023/12/05 11:00:33.880  4062  4062 NW2   Using systemd-logind for suspend/resume monitoring
+2023/12/05 11:00:33.881  4062  4062 NW2   Generating new RSA private/public key pair
+2023/12/05 11:00:33.890  4062  4062 NW2   System uptime: 173 seconds
+2023/12/05 11:00:33.890  4062  4062 NW2   SystemID m=1 s=0 803596e6afec48c284f02bbfe21844ac
+2023/12/05 11:00:33.891  4062  4062 NW2   
+Start:              2023/12/05 11:00:33.890 (UTC+1:00)
+Version:            15.48.4 QS
+Version short hash: 4486e586978
+ID:                 0
+Loglevel:           Info
+License:            0
+IC:                 -640447015
+CPU:                13th Gen Intel(R) Core(TM) i5-1335U
+CPU extensions:     l9
+OS:                 Lx Ubuntu 22.04.3 LT (64-bit)
+IP:                 192.168.1.4
+MID:                -640447015_3cd53042f_b76c974abaf8fb81
+MIDv:               0
+Proxy-Settings:     Type=0 IP= User=
+AppPath:            /home/dci-student/Schreibtisch/teamviewer_qs/teamviewerqs/
+
+2023/12/05 11:00:33.891  4062  4062 NW2   LanguageControl: device language is 'de'
+2023/12/05 11:00:33.892  4062  4062 NW2   NetWatchdog: Internet is now connected
+2023/12/05 11:00:33.892  4062  4062 NW2   NetWatchDogLinux: initialized network manager connection
+2023/12/05 11:00:33.892  4062  4062 NW2   Using IPC-Port 6039
+2023/12/05 11:00:33.892  4062  4062 NW2   UpdateResponseLinux: success 1 updated 0
+2023/12/05 11:00:33.892  4062  4069 NW2   OSSessionEventTranslatorLinux::RegisterSessionEvents(): Start observing session events
+2023/12/05 11:00:33.892  4062  4062 NW2!  OptOutManager::[]ResultCB: Send message result 0
+2023/12/05 11:00:33.892  4062  4069 NW2   OSSessionEventTranslator::GenerateEventsForSession: SessionID = 4294967295, username = , primarySession = 0, isUsable = 1, locked = 0, connected = 0
+2023/12/05 11:00:33.892  4062  4069 NW2   OSSessionEventTranslator::GenerateEventsForSession: SessionID = 450215437, username = dci-student, primarySession = 1, isUsable = 1, locked = 0, connected = 1
+2023/12/05 11:00:33.892  4062  4069 NW2   SessionDesignatorLinux::PrimarySessionConnected: session: 450215437 old active session 4294967295
+2023/12/05 11:00:33.892  4062  4069 NW2   MultiUserSessionDesignator: New active session: 450215437
+2023/12/05 11:00:33.892  4062  4069 NW2   NetworkControl::UpdateOnlineState alwaysOnline=1 delayOffline=0 otherProcess=0 restart=0 termsOfUseAccepted=1
+2023/12/05 11:00:33.892  4062  4069 NW2   TeamViewer is going online!
+2023/12/05 11:00:33.892  4062  4069 NW2   CKeepAliveClientClient::DoReconnectInternal: doing nothing, state = 0
+2023/12/05 11:00:33.892  4062  4069 NW2   NetworkControl::UpdateOnlineState alwaysOnline=1 delayOffline=0 otherProcess=0 restart=0 termsOfUseAccepted=1
+2023/12/05 11:00:33.893  4062  4071 NW2   CKeepAliveClientClient::StartConnect(): Protocol 8 proxy -- IP router5.teamviewer.com
+2023/12/05 11:00:33.893  4062  4071 NW2   Activating Router Carrier
+2023/12/05 11:00:33.932  4062  4072 NW2   CTcpConnectionBase[1]::HandleResolveSuccess(): Connecting to router5.teamviewer.com
+2023/12/05 11:00:33.932  4062  4072 NW2   TcpConnectorv6[1]::ConnectEndpoint(): Connecting to endpoint 2a00:11c0:5:351:188:172:235:150:5938
+2023/12/05 11:00:33.932  4062  4072 NW2   TcpConnectorv4[1]::ConnectEndpoint(): Connecting to endpoint 34.155.148.153:5938
+2023/12/05 11:00:33.932  4062  4074 NW2!  TcpConnectorv6[1]::CheckForNextEndpoint: Connect failed to dest-ip 2a00:11c0:2b:351:213:227:185:139:5938 with error system:101. Trying next address.
+2023/12/05 11:00:33.933  4062  4074 NW2   TcpConnectorv6[1]::ConnectEndpoint(): Connecting to endpoint 2a00:11c0:2b:351:213:227:185:139:5938
+2023/12/05 11:00:33.933  4062  4074 NW2!  TcpConnectorv6[1]::CheckForNextEndpoint: Connect failed to dest-ip 2a00:11c0:30:351:217:146:13:133:5938 with error system:101. Trying next address.
+2023/12/05 11:00:33.933  4062  4074 NW2   TcpConnectorv6[1]::ConnectEndpoint(): Connecting to endpoint 2a00:11c0:30:351:217:146:13:133:5938
+2023/12/05 11:00:33.933  4062  4067 NW2!  TcpConnectorv6[1]::CheckForNextEndpoint: Connect failed to dest-ip 2a00:11c0:76:351:188:172:245:141:5938 with error system:101. Trying next address.
+2023/12/05 11:00:33.933  4062  4067 NW2   TcpConnectorv6[1]::ConnectEndpoint(): Connecting to endpoint 2a00:11c0:76:351:188:172:245:141:5938
+2023/12/05 11:00:33.934  4062  4074 NW2!  TcpConnectorv6[1]::CheckForNextEndpoint: Connect failed to dest-ip 2a00:11c0:8:351:188:172:198:137:5938 with error system:101. Trying next address.
+2023/12/05 11:00:33.934  4062  4074 NW2   TcpConnectorv6[1]::ConnectEndpoint(): Connecting to endpoint 2a00:11c0:8:351:188:172:198:137:5938
+2023/12/05 11:00:33.964  4062  4071 NW2   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to router5.teamviewer.com successful
+2023/12/05 11:00:33.964  4062  4071 NW2   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to router5.teamviewer.com initialized
+2023/12/05 11:00:33.964  4062  4071 NW2   KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 0 (IP: 34.155.148.153), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 1
+2023/12/05 11:00:33.965  4062  4071 NW2   IdentifyRequest: ID = 0, IC = -640447015, IsTemporaryID = 0, InitiativeGUID = 15518b4f-1c14-4387-842a-bd0d53aa8be3, CanStoreGUID = 0, MIDHistory = {-640447015_3cd53042f_b76c974abaf8fb81|l803596e6afec48c284f02bbfe21844ac:f4a80dc462e9:c93345abac384c5b848639e9aff240c5|alinux02803596e6afec48c284f02bbfe21844ac:f4a80dc462e9:c93345abac384c5b848639e9aff240c5}, MIDv = 0, MaxSupportedMIDv = 2, RebootHash = {156ab08e-a2c9-6ae9-8f60-fb58109d7ff3}, MIDFlags = 16, MIDForceUpdateFlags = 0, AttractionGUID = 00000000-0000-0000-0000-000000000000, TerminalServerIDsInToken = 1
+2023/12/05 11:00:34.012  4062  4076 NW2   TVRouterClock: received router time: 20231205T100033.990796
+2023/12/05 11:00:34.012  4062  4076 NW2   TVRouterClock Schedule next request in 43200 seconds
+2023/12/05 11:00:34.119  4062  4068 NW2   SelfSignedCertificateManager::CallbackWithCertificateData: created new 4096 bit RSA private key with fingerprint SHA256:tZYZ3aERBsZRhkPNOHmeWlAsZJhPZ6kyrlZp/B5O+sc
+2023/12/05 11:00:34.347  4062  4076 NW2   Login::Identify::ManageLogin(): ID: 1360645834 IC 120497479 MIDv1
+2023/12/05 11:00:34.348  4062  4076 NW2   CKeepAliveClientClient::OnKeepAliveSucceeded(): Protocol 8 proxy -- IP 34.155.148.153
+2023/12/05 11:00:34.348  4062  4076 NW2   TeamViewerIDTracker::UpdateMachineID: New machineID = 1360645834
+2023/12/05 11:00:34.385  3987  3987 GW2   Logger started.
+2023/12/05 11:00:34.385  3987  3987 GW2   Found 0 stack dump files ...
+2023/12/05 11:00:34.385  3987  3987 GW2   Found 0 core dump files ...
+2023/12/05 11:00:34.386  3987  3987 GW2   systemd: logind service available
+2023/12/05 11:00:34.387  3987  3987 GW2   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='2', canGraphical=1, canTTY=1, canMultiSession=0]
+2023/12/05 11:00:34.387  3987  3987 GW2   LogindSessionInfo: New session LogindSessionInfo [id=2 user=dci-student state=user active=1 reliable=1 infoId=450215437] [path=/org/freedesktop/login1/session/_32 TTY=tty2 seat=seat0 display= vtnr=2 owner=[SysUser: dci-student [uid=1001, gid=1001 home=/home/dci-student gecos=dci-student,,, shell=/bin/bash]] idle=0(0) active=1 type=wayland class=user state=active timestamp=1701770279329811 service=gdm-password defaultCG= leader=1611 audit=2 remote=0 rHost= rUser= killProc=0]
+2023/12/05 11:00:34.388  3987  3987 GW2   SysSessionInfoManager: observing sessions from logind is marked as reliable
+2023/12/05 11:00:34.388  3987  3987 GW2   SysSessionInfoManager: Session Information provided by VT [priority: 2]
+2023/12/05 11:00:34.388  3987  3987 GW2!  FrameBuffer: Cannot access /dev/fb0, frame buffer support unavailable
+2023/12/05 11:00:34.389  3987  3987 GW2   SysSessionInfoManager::SessionAdded: adding session WaylandSession: [SysSession 450215437 [type=W vt=2 tty= pseudotty=0 info=1 id=2 user=dci-student state=user active=1 reliable=1]]
+2023/12/05 11:00:34.390  3987  3987 GW2   SysSessionInfoManager::GetOwnProcessSession: own session cache set to '450215437'
+2023/12/05 11:00:34.390  3987  3987 GW2   Running on Qt 5.15.8
+2023/12/05 11:00:34.475  3987  3987 GW2   Initialised XRandR extension 1.6 (base=88 error=145)
+2023/12/05 11:00:34.475  3987  3987 GW2   MonitorInfo: [XRandR 1.2] CRTC XWAYLAND0 1920x1080@60Hz [0, 0, 1920, 1080] - 1
+2023/12/05 11:00:34.475  3987  3987 GW2   Virtual Desktop [0, 0, 1920, 1080]
+2023/12/05 11:00:34.475  3987  3987 GW2   MonitorInfo: [XRandR 1.2] CRTC XWAYLAND0 1920x1080@60Hz [0, 0, 1920, 1080] - 1
+2023/12/05 11:00:34.475  3987  3987 GW2   Virtual Desktop [0, 0, 1920, 1080]
+2023/12/05 11:00:34.481  3987  3987 GW2   Loaded language 'de', using locale 'de'
+2023/12/05 11:00:34.481  3987  3987 GW2   InterProcessBase::SecureNetwork created
+2023/12/05 11:00:34.481  3987  3987 GW2   VoIP: Constructor
+2023/12/05 11:00:34.481  3987  4129 GW2   InterProcessBase::StartTcpCommunicationInternal(): setting m_NetworkConnector to new TCP connector
+2023/12/05 11:00:34.481  3987  4129 GW2   Opening local TCP connection to 127.0.0.1:6039, tcp?
+2023/12/05 11:00:34.481  3987  4090 GW2   Local TCP connection established
+2023/12/05 11:00:34.482  4062  4070 NW2   AcceptServer::HandleAccept: new connection from 127.0.0.1:55254
+2023/12/05 11:00:34.524  4062  4077 NW2   IpcInitConnection::Received_Control_InitIPC: Connecting process: 3987
+2023/12/05 11:00:34.525  4062  4077 NW2   IpcInitConnection::SendInitIPCResponse: Send InitIPC_Response to process: 3987
+2023/12/05 11:00:34.572  3987  4094 GW2   Received Control_InitIPC_Response processtype=1
+2023/12/05 11:00:34.573  3987  4094 GW2   Received Control_InitIPC_Response runningProcesses=3
+2023/12/05 11:00:34.573  3987  4094 GW2   IPCConnection: all processes 3 completely initialized
+2023/12/05 11:00:34.574  3987  4129 GW2   InterProcessBase::ConnectToOtherProcess: Process connected to service.
+2023/12/05 11:00:34.575  3987  3987 GW2   
+Start:              2023/12/05 11:00:34.574 (UTC+1:00)
+Version:            15.48.4 QS
+Version short hash: 4486e586978
+ID:                 0
+Loglevel:           Info
+License:            0
+IC:                 120497479
+CPU:                13th Gen Intel(R) Core(TM) i5-1335U
+CPU extensions:     l9
+OS:                 Lx Ubuntu 22.04.3 LT (64-bit)
+IP:                 192.168.1.4
+Proxy-Settings:     Type=0 IP= User=
+AppPath:            /home/dci-student/Schreibtisch/teamviewer_qs/teamviewerqs/
+
+2023/12/05 11:00:34.616  4062  4068 NW2   NetworkControl::UpdateOnlineState alwaysOnline=1 delayOffline=0 otherProcess=1 restart=0 termsOfUseAccepted=1
+2023/12/05 11:00:34.934  4062  4067 NW2   LicenseTracker::UpdateMachineLicense() local license differs from master license
+2023/12/05 11:00:35.219  4062  4077 NW2   HttpCustomConfigurationDownloader::SetProxyList: Set proxy settings
+2023/12/05 11:00:35.219  4062  4077 NW2   Client logged in and online
+2023/12/05 11:00:35.220  3987  4095 GW2   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: fff88dde-0cdc-4c2f-961a-1d098cba5e56)
+2023/12/05 11:00:35.220  4062  4071 NW2   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2023/12/05 11:00:35.264  4062  4072 NW2   SecureNetworkIPCAdapter::RegisterSharedBCmdCallback(): CC: 30, RegistrationID: fff88dde-0cdc-4c2f-961a-1d098cba5e56, DyngateID: 1360645834, ProcessType: 2, SessionID: 450215437
+2023/12/05 11:00:35.498  4062  4072 NW2   RequestIPAddress::RequestResult: Client country code: DE
+2023/12/05 11:00:37.753  3987  3987 GW2   InterProcessBase::SetReadyToProcessCommands(0)
+2023/12/05 11:00:37.753  3987  3987 GW2   VoIP: Destructor
+2023/12/05 11:00:37.753  3987  3987 GW2   InterProcessBase::SecureNetworkCallbackHandle destroyed (RegistrationID: fff88dde-0cdc-4c2f-961a-1d098cba5e56)
+2023/12/05 11:00:37.753  3987  3987 GW2   InterProcessBase::ShutDown: Shutdown IPC
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 5 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 6 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 9 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! WorkingProxyListener::WorkingProxyResultHandler failed: 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!  WorkingProxyListener::WorkingProxyResultHandler: setting default value ProxyType::Undefined
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 10 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 5 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 6 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 9 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 10 failed with error 2, Errorcode=11
+2023/12/05 11:00:37.753  3987  3987 GW2   CMessageLayer::DisplayBCommandMessage: canceled
+2023/12/05 11:00:37.796  4062  4076 NW2   SecureNetworkIPCAdapter::UnregisterSharedBCmdCallback(): RegistrationID: fff88dde-0cdc-4c2f-961a-1d098cba5e56
+2023/12/05 11:00:37.796  4062  4076 NW2   InterProcessNetwork: Received DisconnectIPC from processID 3987 (ProcessType: 2 in Session 450215437) with reason 2
+2023/12/05 11:00:37.796  4062  4076 NW2   IPCNet: Shutting down network process
+2023/12/05 11:00:37.796  3987  4101 GW2   TcpProcessConnector::HandleRead(): Socket gracefully closed (PID=4062)
+2023/12/05 11:00:37.796  3987  4101 GW2   TcpProcessConnector::CloseConnection(): PID=4062
+2023/12/05 11:00:37.796  3987  4101 GW2   InterProcessBase::EventFunctionInternal(): IPC-Connection Closed
+2023/12/05 11:00:37.796  3987  4101 GW2   TcpProcessConnector::CloseConnection(): PID=4062
+2023/12/05 11:00:37.796  3987  4101 GW2   TcpProcessConnector::CloseConnection(): Shutdown socket returned error 107: Der Socket ist nicht verbunden
+2023/12/05 11:00:37.796  4062  4069 NW2   NetworkControl::UpdateOnlineState alwaysOnline=1 delayOffline=0 otherProcess=0 restart=0 termsOfUseAccepted=1
+2023/12/05 11:00:37.796  3987  3987 GW2   interprocessbase::SecureNetwork destroyed
+2023/12/05 11:00:37.797  4062  4070 NW2   TcpProcessConnector::HandleRead(): Socket gracefully closed (PID=3987)
+2023/12/05 11:00:37.797  4062  4070 NW2   TcpProcessConnector::CloseConnection(): PID=3987
+2023/12/05 11:00:37.797  4062  4070 NW2   TcpProcessConnector::CloseConnection(): Shutdown socket returned error 107: Transport endpoint is not connected
+2023/12/05 11:00:37.805  3987  3987 GW2   Shutting down DBus IOHandler
+2023/12/05 11:00:37.893  4062  4062 NW2   ShutdownDynGate
+2023/12/05 11:00:37.893  4062  4071 NW2   NetworkControl shutdown started
+2023/12/05 11:00:37.894  4062  4071 NW2   TeamViewer is going offline!
+2023/12/05 11:00:37.927  4062  4073 NW2!  Carrier[1]::EndCarrierInternal: Discarded 1 commands, ClientID 1729860930, ShutdownGracefully 1, SessionType_MainKeepAliveConnection
+2023/12/05 11:00:37.928  4062  4073 NW2   SecureNetworkConnection::SendCallbackHandler(): [ remoteID: 1729860930 connection: 23788432 remoteConnection: 0 ], Error: RCommand (Cancel)
+2023/12/05 11:00:37.928  4062  4073 NW2   SecureNetworkConnection::SendCallbackHandler(): [ remoteID: 1729860930 connection: 23788432 remoteConnection: 0 ] Resetting connection due to error RCommand (Cancel)
+2023/12/05 11:00:37.928  4062  4073 NW2   RetryHandle::HandleRetry(): Trying resend to 13 failed with error RCommand:3, not retrying (2 retries would remain) BCmd: CC=0 CT=0
+2023/12/05 11:00:37.928  4062  4073 NW2!  ConfigurationControllerImpl::HandleProviderUnregistrationResponse(): unregister failed with error RCommand:3
+2023/12/05 11:00:37.928  4062  4073 NW2   SecureNetworkConnection::SendCallbackHandler(): [ remoteID: 13 connection: 23788434 remoteConnection: 0 ], Error: RCommand (Cancel)
+2023/12/05 11:00:37.928  4062  4073 NW2   SecureNetworkConnection::SendCallbackHandler(): [ remoteID: 13 connection: 23788434 remoteConnection: 0 ] Resetting connection due to error RCommand (Cancel)
+2023/12/05 11:00:37.928  4062  4073 NW2   RetryHandle::HandleRetry(): Trying resend to 13 failed with error RCommand:3, not retrying (2 retries would remain) BCmd: CC=0 CT=0
+2023/12/05 11:00:37.928  4062  4067 NW2!! SecureNetworkHandshake::ReceiveAckCallback: [remote ID: 13, connection ID: 23788434] errorcode: Cancel(3), Errorcode=11
+2023/12/05 11:00:37.928  4062  4073 NW2!  KeepAliveSessionOutgoing::ConnectEndedHandler(): KeepAliveConnection[1] with router5.teamviewer.com ended
+2023/12/05 11:00:37.928  4062  4077 NW2   AcceptServer::HandleAccept: socket closed
+2023/12/05 11:00:37.929  4062  4071 NW2   InterProcessNetwork::Shutdown: Send queue for session 0 contained 2 command(s)
+2023/12/05 11:00:37.929  4062  4071 NW2   RemoteSessionManager::ClearAllRemoteSessions(): RemoteSession Count: 0
+2023/12/05 11:00:37.929  4062  4062 NW2   NetworkControl shutdown done
+2023/12/05 11:00:37.946  4062  4069 NW2   IConnection[1]::~IConnection(): Count: 0
+2023/12/05 11:00:37.950  4062  4062 NW2   Shutting down DBus IOHandler
+2023/12/05 11:00:37.950  4062  4154 NW2   Shutdown complete
+2023/12/05 11:00:37.951  4062  4062 NW2   TeamViewer_Service Stop
+
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Categories=Network;
+
+Name=TeamViewer QuickSupport
+Comment=Remote control solution.
+Exec=/home/dci-student/Schreibtisch/teamviewer_qs/teamviewerqs/tv_bin/script/teamviewer
+
+Icon=/home/dci-student/Schreibtisch/teamviewer_qs/teamviewerqs/tv_bin/desktop/teamviewer_48.png

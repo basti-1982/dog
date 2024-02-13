@@ -1,0 +1,15 @@
+Init...
+TeamViewer:        15.48.4 - TAR_QS
+Profile:           /home/dci-student (dci-student)
+Desktop:           DS: 'ubuntu' 	XDG: 'ubuntu:GNOME'
+XServer TTY:       none
+
+ok (info)
+
+CheckCPU: SSE2 support: yes
+    Writing raw output to /home/dci-student/Schreibtisch/teamviewer_qs/teamviewerqs/logfiles/DependencyCheck.log
+
+[1m Analyzing dependencies ...          [0m  
+[1;32m
+	All library dependencies (*.so) seem to be satisfied![0m
+ok (profile)
