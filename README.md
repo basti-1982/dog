@@ -32,3 +32,4 @@ Obwohl Labradoodles als hypoallergene Hunde betrachtet werden, kann ihre Fellstr
 
 Aufgrund ihrer freundlichen Natur und ihres nicht haarenden Fells sind Labradoodles bei Hundeliebhabern auf der ganzen Welt beliebt geworden. Sie werden oft als Therapiehunde, Assistenzhunde und Familienhunde eingesetzt.
 
+:-)
